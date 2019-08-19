@@ -6,7 +6,8 @@ List USB attributes for the device:
 - udevadm info --name=/dev/ttyUSB_DATA --attribute-walk
 - udevadm info --name=/dev/ttyUSB_COMMAND --attribute-walk
 --> ttyUSB_DATA: this port is used get data GPS from GPS Module, it corressponds to ttyUSB* port data.
-Note: Port ttyUSB* which contain data GPS can be found by using command: ls -l /dev/ttyUSB*
+Note: Port ttyUSB* which contain data GPS can be found by using command: 
+ls -l /dev/ttyUSB*
 crw-rw---- 1 root dialout 188, 0 Aug 15 01:17 /dev/ttyUSB0
 crw-rw---- 1 root dialout 188, 1 Aug 15 01:19 /dev/ttyUSB1
 crw-rw---- 1 root dialout 188, 2 Aug 15 01:19 /dev/ttyUSB2
