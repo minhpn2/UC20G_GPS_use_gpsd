@@ -20,7 +20,7 @@ crw-rw---- 1 root dialout 188, 4 Aug 15 01:19 /dev/ttyUSB4
 KERNELS=="1-1.3:1.1", ATTRS{bNumEndpoints}=="02", SYMLINK+="ttyUSB_UC20_DATA"
 KERNELS=="1-1.3:1.2", ATTRS{bNumEndpoints}=="02", SYMLINK+="ttyUSB_UC20_COMMAND"
 3. Reload your udevadm rules:
-- udevadm control --reload-rules
+- udevadm control --reload
 
 Now, check your port again: ls -l /dev/ttyUSB*
 crw-rw---- 1 root dialout 188, 0 Aug 15 01:17 /dev/ttyUSB0
